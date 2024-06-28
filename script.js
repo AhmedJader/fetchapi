@@ -1,6 +1,5 @@
 import { url } from './config.js';
 
 fetch(url)
-    .then(response => response.json())
-    .then(data => console.log(data))
+    .then(response => console.log(response))
     .catch(error => console.error(error));
